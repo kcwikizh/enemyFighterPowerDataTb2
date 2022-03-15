@@ -38,5 +38,5 @@ jobs:
       - name: Run lua 
         run: |
           echo run lua,
-          cd 1002946570/enemyFighterPowerDataTb2
+          pwd,
           lua zhikongjisuan.lua,
