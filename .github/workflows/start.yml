@@ -40,5 +40,5 @@ jobs:
         run: |
           echo $PWD,
           echo $LS,
-          lua ship.lua,
+          lua ../ship.lua,
           lua ./zhikongjisuan.lua,
