@@ -36,7 +36,8 @@ jobs:
           # Optional: The target platform (e.g. -A Win32 | x64).
           platform: ubuntu,# optional
           
-
+      - name: check2
+        run: ls -a
 
       # Runs a set of commands using the runners shell
       - name: Run lua 
