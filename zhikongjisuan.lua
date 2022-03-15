@@ -10,8 +10,8 @@ function isReconnaissance(arr1)
 end
 
 
-equipmentData = require("equipment")
-shipData = require("ship")
+equipmentData = require("shinkai-items")
+shipData = require("shinkai-ships")
 shipDataTable = shipData.shipDataTable
 equipDataTable  = equipmentData.equipDataTable 
 data = {}
