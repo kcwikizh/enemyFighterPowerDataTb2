@@ -27,7 +27,7 @@ jobs:
       
       - name: check
         run: |
-          tail zhikong.txt,
+          tail zhikongzhi.txt,
           tail ship.lua,
           
       
