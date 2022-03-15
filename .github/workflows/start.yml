@@ -41,4 +41,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run lua 
-        run: lua ./zhikongjisuan.lua,
+        run: lua zhikongjisuan.lua
