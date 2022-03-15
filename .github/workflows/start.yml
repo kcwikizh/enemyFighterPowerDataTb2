@@ -25,8 +25,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      # Runs a single command using the runners shell
-      - name: Setup Lua/LuaJIT
       # You may pin to the exact commit or the version.
       # uses: xpol/setup-lua@84f642e19a1adbad98b74f9e69ab82d1e6b95e3e
       - uses: xpol/setup-lua@v0.3
