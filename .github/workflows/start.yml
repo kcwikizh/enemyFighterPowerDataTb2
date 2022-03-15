@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: centos-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -31,7 +31,7 @@ jobs:
         uses: xpol/setup-lua@v0.3
         with:
           # Optional: The target platform (e.g. -A Win32 | x64).
-          platform: ubuntu,# optional
+          platform: centos,# optional
           
 
 
