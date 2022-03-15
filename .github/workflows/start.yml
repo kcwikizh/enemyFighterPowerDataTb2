@@ -26,10 +26,7 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: check
-        run: |
-          tail zhikongzhi.txt,
-          tail ship.lua,
-          
+        run: ls -a
       
       - name: Setup Lua/LuaJIT
         # You may pin to the exact commit or the version.
