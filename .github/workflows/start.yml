@@ -36,11 +36,17 @@ jobs:
       - name: get data
         run: |
           curl -O http://bot.kcwiki.moe/luatable/shinkai-ships.lua 
-          curl -O http://bot.kcwiki.moe/luatable/shinkai-items.lua 
-          
-      - name: check
-        run: ls -l
+          curl -O http://bot.kcwiki.moe/luatable/shinkai-items.lua         
 
       # Runs a set of commands using the runners shell
       - name: Run lua 
         run: lua zhikongjisuan.lua
+        
+      - name: check
+        run: ls -l
+        
+      - name: push
+        uses: actions-go/push@v1
+        with:
+          commit-files: zhikongzhi.txt
+      
