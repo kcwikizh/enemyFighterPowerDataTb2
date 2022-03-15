@@ -29,8 +29,6 @@ jobs:
         # uses: xpol/setup-lua@84f642e19a1adbad98b74f9e69ab82d1e6b95e3e
         uses: xpol/setup-lua@v0.3
         with:
-          # The version of Lua to install. Supported versions: Lua >= 5.1.0, LuaJIT >= 2.0.0
-          lua-version: 5.3.5,# optional, default is 5.3.5
           # Optional: The target platform (e.g. -A Win32 | x64).
           platform: ubuntu,# optional
           
