@@ -41,7 +41,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run lua 
-        run: |
-          echo $PWD,
-          lua ../ship.lua,
-          lua ./zhikongjisuan.lua,
+        run: lua ./zhikongjisuan.lua,
